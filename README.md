@@ -122,3 +122,31 @@ python train_MModalCC.py
   --fine_tune_encoder True
 
 ```
+
+---
+
+## 📑 Citation
+
+If you find our work useful, please cite:
+```bash
+@article{karaca2025robust,
+  title   = {Robust Change Captioning in Remote Sensing: SECOND-CC Dataset and MModalCC Framework},
+  author  = {Karaca, Ali Can and Serttaş, Oğuzhan and Duman, Eren and Özelbaş, Enes and Karimli, Orkhan and Amasyalı, Mehmet Fatih and Diri, Banu and Bilgin, Gökhan},
+  journal = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  year    = {2025},
+  volume  = {XX},
+  number  = {XX},
+  pages   = {1--14},
+  doi     = {10.1109/JSTARS.2025.XXXXXXX}
+}
+```
+
+---
+
+## 🙏 Reference
+
+We thank the following repositories:
+
+- [a-PyTorch-Tutorial-to-Image-Captioning](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning)
+
+- [RSICCformer (Liu et al., TGRS 2022)](https://github.com/Chen-Yang-Liu/RSICC)
