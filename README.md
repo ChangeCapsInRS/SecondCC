@@ -99,9 +99,26 @@ After downloading, put it into:
 
 Run demo:
 ```bash
-python eval_MModalCC.py --beam_size 4 \
---Split TEST --data_folder .\createdFileBlackAUG \
--path .\checkpoint
+python eval_MModalCC.py --beam_size 4 --data_folder .\createdFileBlackAUG --path .\checkpoint
 ```
 Generated captions will be saved in the workspace as well as groundtruth captions.
 
+---
+
+## 🏋️ Training
+
+Make sure dataset preprocessing is done. Then run:
+
+Run training:
+```bash
+python train_MModalCC.py
+  --data_folder ./createdFileBlackAUG/ \
+  --data_name SECOND_CC_5_cap_per_img_10_min_word_freq \
+  --encoder_image resnet101 \
+  --epochs 30 \
+  --batch_size 28 \
+  --encoder_lr 5e-5 \
+  --decoder_lr 5e-5 \
+  --fine_tune_encoder True
+
+```
