@@ -3,6 +3,7 @@
 📢 **This paper is published in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS), 2025.**  
 🔗 [IEEE Xplore Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11130644)  
 📄 DOI: [10.1109/JSTARS.2025.3600613](https://doi.org/10.1109/JSTARS.2025.3600613) \
+\
 [MOSAIC Research Group Website:](https://avesis.yildiz.edu.tr/arastirma-grubu/mosaic)
 
 ## 🔎 Summary
@@ -46,6 +47,27 @@ cd MModalCC
 conda create -n mmodalcc_env python=3.6
 conda activate mmodalcc_env
 pip install -r requirements.txt
+```
+
+---
+
+## 📊 Evaluation Metrics
+
+For evaluation, we use standard captioning metrics: **BLEU, CIDEr, ROUGE-L, METEOR, and SPICE**.
+
+Due to GitHub storage limitations, the `eval_func/meteor` and `eval_func/spice` subfolders are **not included** in this repository.  
+You can download them from Google Drive:
+
+- [METEOR & SPICE Evaluation Scripts (Google Drive)](https://drive.google.com/...)
+
+After downloading, place them under:
+```bash
+./eval_func/
+├── bleu/
+├── cider/
+├── rouge/
+├── meteor/
+└── spice/
 ```
 
 ---
