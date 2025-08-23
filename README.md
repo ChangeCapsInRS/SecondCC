@@ -61,12 +61,13 @@ Place the dataset under:
 ./SECOND_CC_dataset/
 
 The directory structure should look like:
+```
 SECOND_CC_dataset/
 ├── train/
 ├── val/
 ├── test/
 └── SECOND-CC-AUG.json
-
+```
 ---
 
 ### 2. Preprocess Dataset and Generate HDF5 Files
