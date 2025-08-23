@@ -47,7 +47,9 @@ conda create -n mmodalcc_env python=3.6
 conda activate mmodalcc_env
 pip install -r requirements.txt
 
-# 📂 Data Preparation
+---
+
+## 📂 Data Preparation
 
 ### 1. Download the Dataset
 Download **SECOND-CC** dataset from Google Drive:
