@@ -5,7 +5,7 @@
 📄 DOI: [10.1109/JSTARS.2025.3600613](https://doi.org/10.1109/JSTARS.2025.3600613)
 
 <p align="center">
-  <img src="fig/blockDiag.jpg" alt="MModalCC Framework" width="650"/>
+  <img src="fig/blockDiag.jpg" alt="MModalCC Framework" width="850"/>
 </p>
 
 [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=MOSAIC-Lab/MModalCC)]()
@@ -31,7 +31,7 @@ We introduce **SECOND-CC**, a large-scale remote sensing change captioning datas
 Example pair:  
 
 <p align="center">
-  <img src="fig/dataset.jpg" alt="SECOND-CC Dataset" width="650"/>
+  <img src="fig/dataset.jpg" alt="SECOND-CC Dataset" width="850"/>
 </p>
 
 ---
