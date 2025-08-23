@@ -87,5 +87,19 @@ Download and extract them into:
 
 ./createdFileBlackAUG/
 
+---
 
+## 🔎 Inference Demo
+
+You can download our pretrained model checkpoint: [Google Drive](https://drive.google.com/file/d/1LCYJAM67DN-A8BtU5aZjXTA_OpSBMnTR/view?usp=sharing)
+
+After downloading, put it into:
+
+./checkpoint/
+
+Run demo:
+
+python eval_MModalCC.py 
+
+Generated captions will be saved in workspace as well as groundtruth captions.
 
