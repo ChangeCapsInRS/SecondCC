@@ -4,7 +4,7 @@
 🔗 [IEEE Xplore Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11130644)  
 📄 DOI: [10.1109/JSTARS.2025.3600613](https://doi.org/10.1109/JSTARS.2025.3600613) \
 \
-[MOSAIC Research Group Website:](https://avesis.yildiz.edu.tr/arastirma-grubu/mosaic)
+🌐 [**MOSAIC Research Group Website**](https://avesis.yildiz.edu.tr/arastirma-grubu/mosaic)
 
 ## 🔎 Summary
 Existing remote sensing change captioning (RSICC) methods struggle under illumination differences, viewpoint changes, blur, resolution mismatch, and registration errors, often leading to inaccurate captions in no-change regions. To overcome these challenges, we introduce **SECOND-CC**, a new dataset with **6,041 bitemporal image pairs** and **30,205 human-annotated sentences**, enriched with semantic segmentation maps and diverse real-world scenarios. We further propose **MModalCC**, a multimodal framework that fuses semantic and visual data via **Cross-Modal Cross Attention** and **Multimodal Gated Cross Attention**
