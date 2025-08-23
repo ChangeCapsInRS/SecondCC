@@ -98,8 +98,10 @@ After downloading, put it into:
 ./checkpoint/
 
 Run demo:
-
-python eval_MModalCC.py 
-
-Generated captions will be saved in workspace as well as groundtruth captions.
+```bash
+python eval_MModalCC.py --beam_size 4 \
+--Split TEST --data_folder .\createdFileBlackAUG \
+-path .\checkpoint
+```
+Generated captions will be saved in the workspace as well as groundtruth captions.
 
