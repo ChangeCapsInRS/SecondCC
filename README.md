@@ -9,7 +9,7 @@
 </p>
 
 [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=MOSAIC-Lab/MModalCC)]()
-[![GitHub stars](https://img.shields.io/github/stars/MOSAIC-Lab/MModalCC?style=social)]()
+[![MOSAIC Research Group Website:](https://avesis.yildiz.edu.tr/arastirma-grubu/mosaic)]()
 
 ---
 
