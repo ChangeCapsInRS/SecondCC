@@ -79,10 +79,10 @@ python tools/create_input_files.py --min_word_freq 5
 After preprocessing, you will find the generated files in:
 ./createdFileBlackAUG/
 
-3. Use Preprocessed HDF5 Files (Optional)
+### 3. Use Preprocessed HDF5 Files (Optional)
 We also provide ready-to-use .h5 files:
 
-SECOND-CC HDF5 Files (Google Drive)
+SECOND-CC HDF5 Files ([Google Drive](https://drive.google.com/file/d/1FUZIj-Zq8cwfTO-s6wlyay84icRYxpGn/view?usp=sharing))
 Download and extract them into:
 
 ./createdFileBlackAUG/
