@@ -72,16 +72,16 @@ SECOND_CC_dataset/
 ### 2. Preprocess Dataset and Generate HDF5 Files
 To convert raw data into HDF5 feature files, run:
 ```bash
-python tools/create_input_files.py --min_word_freq 5
-After preprocessing, you will find the generated files in:
+python tools/create_input_files.py --min_word_freq 5 
+```
 
+After preprocessing, you will find the generated files in:
 ./createdFileBlackAUG/
 
 3. Use Preprocessed HDF5 Files (Optional)
 We also provide ready-to-use .h5 files:
 
 SECOND-CC HDF5 Files (Google Drive)
-
 Download and extract them into:
 
 ./createdFileBlackAUG/
