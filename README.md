@@ -1,4 +1,4 @@
-# Robust Change Captioning in Remote Sensing: \ SECOND-CC Dataset and MModalCC Framework
+# Robust Change Captioning in Remote Sensing: SECOND-CC Dataset and MModalCC Framework
 
 📢 **This paper is published in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS), 2025.**  
 🔗 [IEEE Xplore Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11130644)  
