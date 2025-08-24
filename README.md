@@ -29,7 +29,8 @@ Existing remote sensing change captioning (RSICC) methods struggle under illumin
 ## 📘 SECOND-CC Dataset
 We introduce **SECOND-CC**, a large-scale remote sensing change captioning dataset.
 
-- [Download Link (Google Drive)](https://drive.google.com/file/d/1tzL9l6rEXevFyjjMVOfhrUe74o0Dk5qs/view?usp=sharing)  
+- [Download Link (Google Drive)](https://drive.google.com/file/d/1tzL9l6rEXevFyjjMVOfhrUe74o0Dk5qs/view?usp=sharing)
+- [Download Link (Zenodo, DOI: 10.5281/zenodo.16937571)](https://doi.org/10.5281/zenodo.16937571)
 - Train / Val / Test splits provided with RGB and Semantic Maps
 - Includes paired images + change captions  
 
@@ -79,7 +80,8 @@ After downloading, place them under:
 Download **SECOND-CC** dataset from Google Drive:
 
 - [SECOND-CC Dataset (Google Drive)](https://drive.google.com/file/d/1tzL9l6rEXevFyjjMVOfhrUe74o0Dk5qs/view?usp=sharing)
-
+- [SECOND-CC Dataset (Zenodo, DOI: 10.5281/zenodo.16937571)](https://doi.org/10.5281/zenodo.16937571)
+  
 Place the dataset under:
 ./SECOND_CC_dataset/
 
