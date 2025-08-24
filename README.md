@@ -16,7 +16,8 @@ Existing remote sensing change captioning (RSICC) methods struggle under illumin
 </p>
 
 [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=MOSAIC-Lab/MModalCC)]()
-
+[![GitHub stars](https://img.shields.io/github/stars/MOSAIC-Lab/MModalCC?style=social)]()
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FJSTARS.2025.3600613-blue)](https://doi.org/10.1109/JSTARS.2025.3600613)
 ---
 
 ⭐ **Share us a star if this repo helps your research!**  
