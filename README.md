@@ -58,7 +58,7 @@ For evaluation, we use standard captioning metrics: **BLEU, CIDEr, ROUGE-L, METE
 Due to GitHub storage limitations, the `eval_func/meteor` and `eval_func/spice` subfolders are **not included** in this repository.  
 You can download them from Google Drive:
 
-- [METEOR & SPICE Evaluation Scripts (Google Drive)](https://drive.google.com/file/d/1VYGYn9UbdCRnVJrpOWZAx-WRXHZwzW4C/view?usp=sharing)
+- [METEOR & SPICE Evaluation Scripts (Google Drive)](https://drive.google.com/file/d/1GseNGhs2qhIW6G72fktrWckbTaZ98vws/view?usp=sharing)
 
 After downloading, place them under:
 ```bash
