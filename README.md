@@ -1,4 +1,4 @@
-# Robust Change Captioning in Remote Sensing: SECOND-CC Dataset and MModalCC Framework
+# Robust Change Captioning in Remote Sensing: \ SECOND-CC Dataset and MModalCC Framework
 
 📢 **This paper is published in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS), 2025.**  
 🔗 [IEEE Xplore Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11130644)  
@@ -28,8 +28,8 @@ Existing remote sensing change captioning (RSICC) methods struggle under illumin
 ## 📘 SECOND-CC Dataset
 We introduce **SECOND-CC**, a large-scale remote sensing change captioning dataset.
 
-- [Download Link (Google Drive)](https://drive.google.com/...)  
-- Train / Val / Test splits provided  
+- [Download Link (Google Drive)](https://drive.google.com/file/d/1tzL9l6rEXevFyjjMVOfhrUe74o0Dk5qs/view?usp=sharing)  
+- Train / Val / Test splits provided with RGB and Semantic Maps
 - Includes paired images + change captions  
 
 Example pair:  
@@ -58,7 +58,7 @@ For evaluation, we use standard captioning metrics: **BLEU, CIDEr, ROUGE-L, METE
 Due to GitHub storage limitations, the `eval_func/meteor` and `eval_func/spice` subfolders are **not included** in this repository.  
 You can download them from Google Drive:
 
-- [METEOR & SPICE Evaluation Scripts (Google Drive)](https://drive.google.com/...)
+- [METEOR & SPICE Evaluation Scripts (Google Drive)](https://drive.google.com/file/d/1VYGYn9UbdCRnVJrpOWZAx-WRXHZwzW4C/view?usp=sharing)
 
 After downloading, place them under:
 ```bash
@@ -77,7 +77,7 @@ After downloading, place them under:
 ### 1. Download the Dataset
 Download **SECOND-CC** dataset from Google Drive:
 
-- [SECOND-CC Dataset (Google Drive)](https://drive.google.com/...)
+- [SECOND-CC Dataset (Google Drive)](https://drive.google.com/file/d/1tzL9l6rEXevFyjjMVOfhrUe74o0Dk5qs/view?usp=sharing)
 
 Place the dataset under:
 ./SECOND_CC_dataset/
@@ -104,7 +104,7 @@ After preprocessing, you will find the generated files in:
 ### 3. Use Preprocessed HDF5 Files (Optional)
 We also provide ready-to-use .h5 files:
 
-SECOND-CC HDF5 Files ([Google Drive](https://drive.google.com/file/d/1FUZIj-Zq8cwfTO-s6wlyay84icRYxpGn/view?usp=sharing))
+SECOND-CC HDF5 Files ([Google Drive](https://drive.google.com/file/d/1fSuzIKREf5-Df442bn0ym4duZI2zF389/view?usp=sharing))
 Download and extract them into:
 
 ./createdFileBlackAUG/
@@ -113,7 +113,7 @@ Download and extract them into:
 
 ## 🔎 Inference Demo
 
-You can download our pretrained model checkpoint: [Google Drive](https://drive.google.com/file/d/1LCYJAM67DN-A8BtU5aZjXTA_OpSBMnTR/view?usp=sharing)
+You can download our pretrained model checkpoint: [Google Drive](https://drive.google.com/file/d/1VYGYn9UbdCRnVJrpOWZAx-WRXHZwzW4C/view?usp=sharing)
 
 After downloading, put it into:
 
@@ -123,7 +123,7 @@ Run demo:
 ```bash
 python eval_MModalCC.py --beam_size 4 --data_folder .\createdFileBlackAUG --path .\checkpoint
 ```
-Generated captions will be saved in the workspace as well as groundtruth captions.
+Generated captions will be saved in the workspace as well as ground truth captions.
 
 ---
 
