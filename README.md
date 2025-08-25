@@ -156,15 +156,16 @@ python train_MModalCC.py
 If you find our work useful, please cite:
 ```bash
 @article{karaca2025robust,
-  title   = {Robust Change Captioning in Remote Sensing: SECOND-CC Dataset and MModalCC Framework},
-  author  = {Karaca, Ali Can and Serttaş, Oğuzhan and Duman, Eren and Özelbaş, Enes and Karimli, Orkhan and Amasyalı, Mehmet Fatih and Diri, Banu and Bilgin, Gökhan},
-  journal = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
-  year    = {2025},
-  volume  = {XX},
-  number  = {XX},
-  pages   = {1--14},
-  doi     = {10.1109/JSTARS.2025.XXXXXXX}
-}
+  author={Karaca, Ali Can and Ozelbas, Enes and Berber, Saadettin and Karimli, Orkhan and Yildirim, Turabi and Amasyali, M. Fatih},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={Robust Change Captioning in Remote Sensing: SECOND-CC Dataset and MModalCC Framework}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-21},
+  keywords={Semantics;Feature extraction;Remote sensing;Decoding;Buildings;Adaptation models;Visualization;Vegetation mapping;Logic gates;Earth;Change captioning;multimodal change captioning;remote sensing images},
+  doi={10.1109/JSTARS.2025.3600613}}
+ 
 ```
 
 ---
